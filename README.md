@@ -22,7 +22,7 @@ Prueba arquitectura en capas
 ) 
 GO
   ```
-  - Crear procedimiento almacenó Agregar Usuario
+  - Crear procedimiento de almacenado Agregar Usuario
   ```
   CREATE PROCEDURE AgregarUsuario   
     @Nombre varchar(100),   
@@ -40,7 +40,7 @@ AS
 GO 
 
 ```
-- Crear procedimiento almacenó Eliminar Usuario
+- Crear procedimiento de almacenado Eliminar Usuario
 ```
 CREATE PROCEDURE EliminarUsuario   
     @IdUsuario int  
@@ -49,7 +49,7 @@ AS
  DELETE Usuario WHERE Id = @IdUsuario
 GO 
 ```
-- Crear procedimiento almacenó Modificar Usuario
+- Crear procedimiento de almacenado Modificar Usuario
 ```
 CREATE PROCEDURE ModificarUsuario   
     @Id int,  
