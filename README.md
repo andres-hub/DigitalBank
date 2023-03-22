@@ -2,7 +2,7 @@
 Prueba arquitectura en capas
 
 1. Clone el proyecto
-2. En el archivo  UsuarioRepository de la capa repositorio, ingrese la concesión  de la base de datos, en la variable connString que se encuentra en la línea 11.
+2. En el archivo  UsuarioRepository de la capa de datos, ingrese la conexión  de la base de datos, en la variable connString que se encuentra en la línea 11.
 3. En su motor de base de datos, ejecute los siguientes querys 
   - Crear la base de datos
   ```
